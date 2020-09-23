@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "package",
+    "target": "es6",
+    "module": "ESNext",
+    "lib": ["dom", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "alwaysStrict": false,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "newLine": "lf",
+    "noUnusedLocals": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "package", ".cache"]
+}
