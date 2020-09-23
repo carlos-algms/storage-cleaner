@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "outDir": "package",
     "target": "es6",
     "module": "ESNext",
@@ -18,8 +19,14 @@
     "sourceMap": true,
     "downlevelIteration": true,
     "newLine": "lf",
-    "noUnusedLocals": false
+    "noUnusedLocals": false,
+    "isolatedModules": true,
+    "jsx": "react",
+    "paths": {
+      "react": ["node_modules/preact/compat"],
+      "react-dom": ["node_modules/preact/compat"]
+    }
   },
   "include": ["src"],
-  "exclude": ["node_modules", "package", ".cache"]
+  "exclude": ["node_modules", "package", ".cache", "**/*.test.*"]
 }

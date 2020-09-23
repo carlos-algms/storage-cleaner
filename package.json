@@ -1,0 +1,35 @@
+{
+  "name": "storage-cleaner",
+  "version": "0.0.0",
+  "description": "Chrome extension to clear local and session storage and also cookies",
+  "scripts": {
+    "build": "rm -rf package && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-algms/storage-cleaner.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension"
+  ],
+  "author": "Carlos Gomes <carlos.algms@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos-algms/storage-cleaner/issues"
+  },
+  "homepage": "https://github.com/carlos-algms/storage-cleaner#readme",
+  "dependencies": {
+    "preact": "^10.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.62",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.1.2",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "private": true
+}

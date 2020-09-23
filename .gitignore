@@ -1,0 +1,37 @@
+
+# package
+package/
+public/
+.cache
+
+# Logs
+logs
+*.log
+
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# next.js build output
+.next
+
+# MACOS
+.DS_Store
+
+# Eslint report
+report.json
+
+# vercel
+.vercel

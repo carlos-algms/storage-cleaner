@@ -1,0 +1,32 @@
+{
+  "name": "StorageCleaner",
+  "version": "0.0.0",
+  "description": "Chrome extension to clear local and session storage and also cookies",
+  "icons": {
+    "128": "images/erase_128.png"
+  },
+  "homepage_url": "https://github.com/carlos-algms/storage-cleaner",
+  "browser_action": {
+    "default_icon": {
+      "19": "images/erase_19.png",
+      "38": "images/erase_38.png"
+    },
+    "default_title": "StorageCleaner",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options_page.html",
+  "background": {
+    "scripts": []
+  },
+  "permissions": [
+    "tabs",
+    "cookies",
+    "unlimitedStorage",
+    "notifications",
+    "storage",
+    "clipboardWrite"
+  ],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "minimum_chrome_version": "41",
+  "manifest_version": 2
+}
